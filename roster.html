@@ -37,7 +37,7 @@
 			  });
 		  
 			// Fetch the CSV file (static file on the server)
-			fetch('https://github.com/Warsonx/file/blob/main/roster.csv')  // Replace with the correct path to your CSV file
+			fetch('roster.csv')  // Replace with the correct path to your CSV file
 				.then(response => response.text())  // Get the content as text
 				.then(csvData => {
 					// Parse the CSV data using PapaParse
