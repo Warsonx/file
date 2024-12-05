@@ -1,0 +1,40 @@
+.body-content {
+	padding-top: 20px;
+	text-align: center;
+	flex-grow: 1;
+}
+
+.top-footer-socials {
+    display: flex;
+	justify-content: flex-end;
+    align-items: center;
+	padding: 5px;
+}
+
+.icon-element {
+	filter: grayscale(100%);
+}
+
+.guild-thumbnail {
+    padding: 5px;
+    background-color: var(--bs-body-bg);
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    max-width: 100%;
+    height: auto;
+	border-radius: 15px;
+}
+
+.header {
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.main-content {
+	padding-top: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
